@@ -1817,3 +1817,98 @@ section[id] {
 ::-webkit-scrollbar-thumb:hover {
     background: var(--primary-dark);
 }
+
+/* ============================================
+   CAREERS SECTION
+   ============================================ */
+.careers {
+    padding: 80px 0;
+    background: linear-gradient(135deg, var(--dark) 0%, var(--black) 50%, rgba(37, 99, 235, 0.1) 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+.careers::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+}
+
+.careers-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.careers-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(37, 99, 235, 0.15);
+    border: 1px solid rgba(37, 99, 235, 0.3);
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 25px;
+    color: var(--primary-light);
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.careers-badge i {
+    font-size: 1rem;
+}
+
+.careers-title {
+    font-family: var(--font-display);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 700;
+    color: var(--white);
+    margin-bottom: 20px;
+}
+
+.careers-subtitle {
+    font-size: 1.1rem;
+    color: var(--light-gray);
+    line-height: 1.7;
+    margin-bottom: 35px;
+}
+
+.careers-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.careers-feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--white);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.careers-feature i {
+    color: var(--accent-green);
+    font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+    .careers {
+        padding: 60px 0;
+    }
+
+    .careers-features {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+}
