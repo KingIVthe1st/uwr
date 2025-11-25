@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ultimate Wheel Repair & Mobile Detailing - Premium wheel repair, ceramic coating, and detailing services for Auto, Boat & Plane in Atlanta, GA. Call (404) 916-5931">
+    <meta name="keywords" content="wheel repair, curb rash repair, mobile detailing, ceramic coating, Atlanta, custom wheel paint, brake caliper paint">
+    <title>Ultimate Wheel Repair & Mobile Detailing | Atlanta's Premier Auto, Boat & Plane Detailing</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="images/uwrlogo.png" alt="Loading..." class="loader-logo">
+            <div class="loader-spinner"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <img src="images/uwrlogo.png" alt="Ultimate Wheel Repair Logo">
+            </a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#gallery" class="nav-link">Gallery</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="tel:4049165931" class="nav-cta">
+                <i class="fas fa-phone"></i>
+                <span>(404) 916-5931</span>
+            </a>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#gallery" class="mobile-link">Gallery</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <a href="tel:4049165931" class="mobile-cta">
+                <i class="fas fa-phone"></i> Call Now: (404) 916-5931
+            </a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <div class="hero-overlay"></div>
+            <video autoplay muted loop playsinline class="hero-video" poster="images/ceramic-coating.jpg">
+                <source src="" type="video/mp4">
+            </video>
+            <img src="images/ceramic-coating.jpg" alt="Luxury Car Detailing" class="hero-fallback">
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-aos="fade-down" data-aos-delay="100">
+                <i class="fas fa-shield-alt"></i>
+                <span>Atlanta's Premier Detailing Service</span>
+            </div>
+            <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                <span class="hero-title-line">Ultimate</span>
+                <span class="hero-title-accent">Wheel Repair</span>
+                <span class="hero-title-sub">& Mobile Detailing</span>
+            </h1>
+            <p class="hero-subtitle" data-aos="fade-up" data-aos-delay="300">
+                Premium restoration and detailing services for your prized vehicles.
+                <strong>Auto | Boat | Plane</strong> — We come to you.
+            </p>
+            <div class="hero-cta-group" data-aos="fade-up" data-aos-delay="400">
+                <a href="tel:4049165931" class="btn btn-primary btn-glow">
+                    <i class="fas fa-phone-alt"></i>
+                    Call Now: (404) 916-5931
+                </a>
+                <a href="#contact" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i>
+                    Get Free Quote
+                </a>
+            </div>
+            <div class="hero-trust" data-aos="fade-up" data-aos-delay="500">
+                <div class="trust-item">
+                    <i class="fas fa-star"></i>
+                    <span>5-Star Rated</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Mobile Service</span>
+                </div>
+                <div class="trust-item">
+                    <i class="fas fa-certificate"></i>
+                    <span>Certified Pros</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#services">
+                <span>Scroll</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Floating CTA -->
+    <div class="floating-cta" id="floating-cta">
+        <a href="tel:4049165931" class="floating-btn">
+            <i class="fas fa-phone-alt"></i>
+            <span>Call Now</span>
+        </a>
+    </div>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">What We Offer</span>
+                <h2 class="section-title">Premium Services</h2>
+                <p class="section-subtitle">Expert craftsmanship for discerning vehicle owners</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Wheel Repair -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Curb Rash Repair</h3>
+                        <p>Expert restoration of damaged wheel edges. We repair scratches, scuffs, and curb damage to restore your wheels to showroom condition.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> OEM Finish Match</li>
+                            <li><i class="fas fa-check"></i> Same-Day Service</li>
+                            <li><i class="fas fa-check"></i> Mobile Repair</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        Get Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Custom Wheel Paint -->
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Custom Wheel Paint</h3>
+                        <p>Transform your wheels with custom color changes. From gloss black to two-tone finishes, we create the exact look you want.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Unlimited Colors</li>
+                            <li><i class="fas fa-check"></i> Powder Coat Options</li>
+                            <li><i class="fas fa-check"></i> Durable Finish</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        Get Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Brake Caliper Paint -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-spray-can"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Brake Caliper Paint</h3>
+                        <p>Add a pop of color behind your wheels. High-temperature paint that withstands extreme heat while looking incredible.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Heat Resistant</li>
+                            <li><i class="fas fa-check"></i> Custom Colors</li>
+                            <li><i class="fas fa-check"></i> Professional Prep</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        Get Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Ceramic Coating -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Ceramic Coating</h3>
+                        <p>Ultimate paint protection with nano-ceramic technology. Long-lasting hydrophobic shield that keeps your vehicle looking new.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> 5+ Year Protection</li>
+                            <li><i class="fas fa-check"></i> UV Protection</li>
+                            <li><i class="fas fa-check"></i> Self-Cleaning Effect</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        Get Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Interior/Exterior Detail -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Interior & Exterior Detail</h3>
+                        <p>Complete vehicle rejuvenation. From leather conditioning to paint correction, we make your vehicle look better than new.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Full Interior Deep Clean</li>
+                            <li><i class="fas fa-check"></i> Paint Correction</li>
+                            <li><i class="fas fa-check"></i> Leather Treatment</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        Get Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- Aircraft Detailing -->
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-badge">Specialty</div>
+                    <div class="service-icon">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Aircraft & Boat Detailing</h3>
+                        <p>Professional detailing for aviation and marine vessels. We bring our expertise to hangars and marinas throughout Atlanta.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Aviation-Grade Products</li>
+                            <li><i class="fas fa-check"></i> Marine Specialists</li>
+                            <li><i class="fas fa-check"></i> On-Location Service</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="service-link">
+                        Get Quote <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-number" data-count="500">0</div>
+                    <div class="stat-label">Wheels Repaired</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-number" data-count="1000">0</div>
+                    <div class="stat-label">Happy Customers</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-number" data-count="10">0</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-number" data-count="100">0</div>
+                    <div class="stat-percent">%</div>
+                    <div class="stat-label">Satisfaction</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Work</span>
+                <h2 class="section-title">Before & After Gallery</h2>
+                <p class="section-subtitle">See the transformation for yourself</p>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Before/After 1: Custom Wheel Paint -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="ba-slider">
+                        <div class="ba-image ba-after">
+                            <img src="images/gallery/wheel-paint-after.jpg" alt="Custom Wheel Paint After">
+                            <span class="ba-label">After</span>
+                        </div>
+                        <div class="ba-image ba-before">
+                            <img src="images/gallery/wheel-paint-before.jpg" alt="Custom Wheel Paint Before">
+                            <span class="ba-label">Before</span>
+                        </div>
+                        <div class="ba-handle">
+                            <div class="ba-handle-circle">
+                                <i class="fas fa-arrows-alt-h"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Custom Wheel Paint</h4>
+                        <p>Lamborghini Urus - Red accent lip addition</p>
+                    </div>
+                </div>
+
+                <!-- Before/After 2: Curb Rash -->
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="ba-slider">
+                        <div class="ba-image ba-after">
+                            <img src="images/gallery/curb-rash-after.jpg" alt="Curb Rash Repair After">
+                            <span class="ba-label">After</span>
+                        </div>
+                        <div class="ba-image ba-before">
+                            <img src="images/gallery/curb-rash-before.jpg" alt="Curb Rash Repair Before">
+                            <span class="ba-label">Before</span>
+                        </div>
+                        <div class="ba-handle">
+                            <div class="ba-handle-circle">
+                                <i class="fas fa-arrows-alt-h"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-caption">
+                        <h4>Brake Caliper Paint</h4>
+                        <p>Kia EV6 - Custom neon yellow calipers</p>
+                    </div>
+                </div>
+
+                <!-- Showcase Images -->
+                <div class="gallery-showcase" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/ceramic-coating.jpg" alt="Ceramic Coating BMW M3">
+                    <div class="showcase-overlay">
+                        <h4>Ceramic Coating</h4>
+                        <p>BMW M3 - Full ceramic protection</p>
+                    </div>
+                </div>
+
+                <div class="gallery-showcase" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/interior-detail.jpg" alt="Interior Detail Porsche">
+                    <div class="showcase-overlay">
+                        <h4>Interior Detail</h4>
+                        <p>Porsche Cayenne - Full interior restoration</p>
+                    </div>
+                </div>
+
+                <div class="gallery-showcase wide" data-aos="fade-up" data-aos-delay="500">
+                    <img src="images/airplane-detail.jpg" alt="Aircraft Detailing">
+                    <div class="showcase-overlay">
+                        <h4>Aircraft Detailing</h4>
+                        <p>Piper Turbo Lance II - Complete detail</p>
+                    </div>
+                </div>
+
+                <div class="gallery-showcase" data-aos="fade-up" data-aos-delay="600">
+                    <img src="images/caliper-paint.jpg" alt="Brake Caliper Paint">
+                    <div class="showcase-overlay">
+                        <h4>Caliper Paint</h4>
+                        <p>Custom red brake caliper paint</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="why-us">
+        <div class="container">
+            <div class="why-us-grid">
+                <div class="why-us-content" data-aos="fade-right">
+                    <span class="section-tag">Why Choose Us</span>
+                    <h2 class="section-title">Atlanta's Trusted Choice for Premium Vehicle Care</h2>
+                    <p class="why-us-text">
+                        We're not just another detailing service. We're passionate craftsmen who treat every vehicle
+                        like it's our own. From exotic supercars to private aircraft, we deliver exceptional results
+                        that exceed expectations.
+                    </p>
+                    <div class="why-us-features">
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="why-text">
+                                <h4>Mobile Service</h4>
+                                <p>We come to your home, office, or hangar</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <div class="why-text">
+                                <h4>Premium Products</h4>
+                                <p>Only the finest detailing products used</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="why-text">
+                                <h4>Guaranteed Results</h4>
+                                <p>100% satisfaction guaranteed on all work</p>
+                            </div>
+                        </div>
+                        <div class="why-feature">
+                            <div class="why-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="why-text">
+                                <h4>Flexible Scheduling</h4>
+                                <p>Appointments that fit your busy life</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="tel:4049165931" class="btn btn-primary btn-large">
+                        <i class="fas fa-phone-alt"></i>
+                        Call (404) 916-5931
+                    </a>
+                </div>
+                <div class="why-us-image" data-aos="fade-left">
+                    <div class="image-stack">
+                        <img src="images/ceramic-coating.jpg" alt="Premium Detailing" class="stack-main">
+                        <img src="images/interior-detail.jpg" alt="Interior Detailing" class="stack-secondary">
+                        <div class="experience-badge">
+                            <span class="exp-number">10+</span>
+                            <span class="exp-text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Testimonials</span>
+                <h2 class="section-title">What Our Clients Say</h2>
+            </div>
+            <div class="testimonials-slider" data-aos="fade-up" data-aos-delay="200">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Incredible work on my Lamborghini Urus wheels! The red accent they added looks absolutely stunning. Fast, professional, and came right to my driveway. Highly recommend!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">JM</div>
+                        <div class="author-info">
+                            <h5>James M.</h5>
+                            <span>Lamborghini Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"They detailed my Piper aircraft and it looks better than when I bought it! Professional, careful, and thorough. These guys know what they're doing."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">RK</div>
+                        <div class="author-info">
+                            <h5>Robert K.</h5>
+                            <span>Aircraft Owner</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The ceramic coating on my BMW M3 is phenomenal. Water beads off like magic and cleaning takes half the time now. Worth every penny!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">SK</div>
+                        <div class="author-info">
+                            <h5>Sarah K.</h5>
+                            <span>BMW Owner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="images/uwrlogo.png" alt="Ultimate Wheel Repair Logo" class="about-logo">
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <span class="section-tag">About Us</span>
+                    <h2 class="section-title">Your Vehicle Deserves the Best</h2>
+                    <p>
+                        Ultimate Wheel Repair & Mobile Detailing is Atlanta's premier destination for premium
+                        vehicle care. We specialize in wheel repair, custom painting, ceramic coatings, and
+                        comprehensive detailing services for automobiles, boats, and aircraft.
+                    </p>
+                    <p>
+                        Our mobile service means we bring our expertise directly to you — whether that's your
+                        home, office, or private hangar. We use only the highest quality products and techniques
+                        to ensure your vehicle receives the care it deserves.
+                    </p>
+                    <div class="about-services">
+                        <div class="about-service">
+                            <i class="fas fa-car"></i>
+                            <span>Auto</span>
+                        </div>
+                        <div class="about-service">
+                            <i class="fas fa-ship"></i>
+                            <span>Boat</span>
+                        </div>
+                        <div class="about-service">
+                            <i class="fas fa-plane"></i>
+                            <span>Plane</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Ready to Transform Your Vehicle?</h2>
+                <p>Get a free quote today and see why Atlanta trusts Ultimate Wheel Repair</p>
+                <div class="cta-buttons">
+                    <a href="tel:4049165931" class="btn btn-white btn-large">
+                        <i class="fas fa-phone-alt"></i>
+                        Call (404) 916-5931
+                    </a>
+                    <a href="#contact" class="btn btn-outline-white btn-large">
+                        <i class="fas fa-envelope"></i>
+                        Email Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Talk About Your Project</h2>
+                    <p>Ready to give your vehicle the attention it deserves? Contact us today for a free quote.</p>
+
+                    <div class="contact-methods">
+                        <a href="tel:4049165931" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Call Us</h4>
+                                <p>(404) 916-5931</p>
+                            </div>
+                        </a>
+                        <a href="mailto:info@ultimatewheelrepair.com" class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email Us</h4>
+                                <p>info@ultimatewheelrepair.com</p>
+                            </div>
+                        </a>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Service Area</h4>
+                                <p>Metro Atlanta & Surrounding Areas</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Hours</h4>
+                                <p>Mon-Sat: 8AM - 6PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Request a Free Quote</h3>
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required>
+                            <label for="name">Your Name</label>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" name="phone" id="phone" required>
+                            <label for="phone">Phone Number</label>
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required>
+                            <label for="email">Email Address</label>
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="form-group">
+                            <select name="service" id="service" required>
+                                <option value="" disabled selected></option>
+                                <option value="curb-rash">Curb Rash Repair</option>
+                                <option value="wheel-paint">Custom Wheel Paint</option>
+                                <option value="caliper-paint">Brake Caliper Paint</option>
+                                <option value="ceramic">Ceramic Coating</option>
+                                <option value="detail">Interior/Exterior Detail</option>
+                                <option value="aircraft">Aircraft Detailing</option>
+                                <option value="boat">Boat Detailing</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="service">Service Needed</label>
+                            <i class="fas fa-cog"></i>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="4" required></textarea>
+                            <label for="message">Tell Us About Your Project</label>
+                            <i class="fas fa-comment"></i>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        <p class="form-note">
+                            <i class="fas fa-shield-alt"></i>
+                            Your information is secure and will never be shared
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/uwrlogo.png" alt="Ultimate Wheel Repair" class="footer-logo">
+                    <p>Premium wheel repair and mobile detailing services for Auto, Boat & Plane throughout Metro Atlanta.</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Curb Rash Repair</a></li>
+                        <li><a href="#services">Custom Wheel Paint</a></li>
+                        <li><a href="#services">Brake Caliper Paint</a></li>
+                        <li><a href="#services">Ceramic Coating</a></li>
+                        <li><a href="#services">Mobile Detailing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <p><i class="fas fa-phone"></i> <a href="tel:4049165931">(404) 916-5931</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@ultimatewheelrepair.com">info@ultimatewheelrepair.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Metro Atlanta, GA</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Ultimate Wheel Repair & Mobile Detailing. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
