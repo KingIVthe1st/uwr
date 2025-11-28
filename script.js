@@ -250,7 +250,7 @@ function initContactForm() {
             try {
                 // For now, we'll use mailto as fallback
                 // In production, replace with your form endpoint
-                const mailtoLink = `mailto:info@ultimatewheelrepair.com?subject=Quote Request: ${data.service}&body=${encodeURIComponent(
+                const mailtoLink = `mailto:Ultmatewheelrepairs@gmail.com?subject=Quote Request: ${data.service}&body=${encodeURIComponent(
                     `Name: ${data.name}\nPhone: ${data.phone}\nEmail: ${data.email}\nService: ${data.service}\n\nMessage:\n${data.message}`
                 )}`;
 
