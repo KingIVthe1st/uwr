@@ -1,11 +1,11 @@
 # Robots.txt for Ultimate Wheel Repair & Mobile Detailing
-# https://ultmatewheelrepair.com
+# https://ultimatewheelrepairs.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://ultmatewheelrepair.com/sitemap.xml
+Sitemap: https://ultimatewheelrepairs.com/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1
